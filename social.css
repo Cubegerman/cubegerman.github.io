@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    padding: 10px;
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(135deg,#00ffff,#0000ff);
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+    border-radius: 0 0 20px 20px;
+    justify-content: space-between;
+}
+nav.home,
+nav.links,
+nav.projects{
+    text-decoration: none;
+    color: #000000;
+}
