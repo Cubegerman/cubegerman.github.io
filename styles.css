@@ -15,9 +15,9 @@ nav{
     white-space: nowrap;
     justify-content: space-between;
 }
-nav i .home,
-nav.links,
-nav.projects{
+nav a .home,
+nav a .links,
+nav a .projects{
     text-decoration: none;
     color: #ffffff;
 }
