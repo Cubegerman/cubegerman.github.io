@@ -17,11 +17,28 @@ nav{
     justify-content: space-between;
 }
 nav a.home,
-nav a.links,
 nav a.projects{
     text-decoration: none;
     color: #ffffff;
     font-size: 25pt;
+}
+
+nav a.home{
+    padding-left: 25%;
+}
+
+nav a.projects{
+    padding-right: 25%;
+}
+
+nav a.projects:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+nav a.home:hover{
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 body{
@@ -32,4 +49,46 @@ body{
     position: fixed;
     top: 85px;
     color: #ffffff;
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 2, 50%;
+    grid-template-areas: "sc kr";
+}
+
+a.si{
+    grid-area: sc;
+}
+
+a.kri{
+    grid-area: kr;
+}
+
+.scratch{
+    position: fixed;
+    left: 25%;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    background-image: url(images/scratch.png);
+    background-position: -50px -33px;
+    background-color: transparent;
+    /* background: #ffb300; */
+}
+
+.icon:hover{
+    scale: 110%;
+    box-shadow: 4px 4px 4px #252525;
+}
+
+.krunker{
+    position: fixed;
+    right: 25%;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    background: #000dff;
+}
+
+button{
+    border: 0;
 }

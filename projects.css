@@ -5,7 +5,9 @@
 
 nav{
     position: absolute;
-    padding: 10px;
+    /* padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px; */
     height: 65px;
     width: 100%;
     background: linear-gradient(135deg,#595959,#464646);
@@ -21,12 +23,14 @@ nav a.projects{
     font-size: 25pt;
 }
 
-body{
-    background: #424242;
+nav a.home{
+    padding-left: 25%;
 }
 
-.container{
-    position: fixed;
-    top: 85px;
-    color: #ffffff;
+nav a.projects{
+    padding-right: 25%;
+}
+
+body{
+    background: #424242;
 }
