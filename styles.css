@@ -64,15 +64,18 @@ a.kri{
 }
 
 .scratch{
+    content: 'Scratch';
     position: fixed;
     left: 25%;
     height: 20%;
+    max-height: 1500px;
     width: 20%;
+    min-width: 150px;
     border-radius: 25px;
-    background-image: url(images/scratch.png);
+    /* background-image: url(images/scratch.png); */
     background-position: -50px -33px;
     background-color: transparent;
-    /* background: #ffb300; */
+    background: #ffb300;
 }
 
 .icon:hover{
