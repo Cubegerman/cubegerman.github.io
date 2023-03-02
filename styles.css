@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root {
+  --button-height: 20vw;
+  --button-width: var(--button-height);
+}
+
 nav{
     position: absolute;
     /* padding: 10px;
@@ -67,11 +72,8 @@ a.kri{
     content: 'Scratch';
     position: fixed;
     left: 25%;
-    height: 20%;
-    max-height: 150px;
-    width: 20%;
-    min-width: 10%;
-    max-width: 150px;
+    height: var(--button-height);
+    width: var(--button-width);
     border-radius: 25px;
     /* background-image: url(images/scratch.png); */
     background-position: -50px -33px;
@@ -85,10 +87,11 @@ a.kri{
 }
 
 .krunker{
+    content: 'Krunker';
     position: fixed;
     right: 25%;
-    height: 20%;
-    width: 20%;
+    height: var(--button-height);
+    width: var(--button-width);
     border-radius: 25px;
     background: #000dff;
 }
