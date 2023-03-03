@@ -72,8 +72,8 @@ a.kri{
     content: 'Scratch';
     position: fixed;
     left: 25%;
-    height: var(--button-height);
-    width: var(--button-width);
+    height: 20vw;
+    width: 20vw;
     border-radius: 25px;
     /* background-image: url(images/scratch.png); */
     background-position: -50px -33px;
@@ -90,8 +90,8 @@ a.kri{
     content: 'Krunker';
     position: fixed;
     right: 25%;
-    height: var(--button-height);
-    width: var(--button-width);
+    height: 20vw;
+    width: 20vw;
     border-radius: 25px;
     background: #000dff;
 }
